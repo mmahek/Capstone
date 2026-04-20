@@ -1,0 +1,83 @@
+{
+  "dataset": "Symptom2Disease",
+  "samples": 1200,
+  "features": 500,
+  "classes": 24,
+  "class_names": [
+    "Acne",
+    "Arthritis",
+    "Bronchial Asthma",
+    "Cervical spondylosis",
+    "Chicken pox",
+    "Common Cold",
+    "Dengue",
+    "Dimorphic Hemorrhoids",
+    "Fungal infection",
+    "Hypertension",
+    "Impetigo",
+    "Jaundice",
+    "Malaria",
+    "Migraine",
+    "Pneumonia",
+    "Psoriasis",
+    "Typhoid",
+    "Varicose Veins",
+    "allergy",
+    "diabetes",
+    "drug reaction",
+    "gastroesophageal reflux disease",
+    "peptic ulcer disease",
+    "urinary tract infection"
+  ],
+  "train_date": "2026-04-20T17:11:52.027348",
+  "training_results": [
+    {
+      "Model": "XGBoost",
+      "Train Accuracy": 1.0,
+      "Test Accuracy": 0.875,
+      "Saved Path": "models/trained/xgboost.pkl"
+    },
+    {
+      "Model": "LightGBM",
+      "Train Accuracy": 1.0,
+      "Test Accuracy": 0.875,
+      "Saved Path": "models/trained/lightgbm.pkl"
+    },
+    {
+      "Model": "CatBoost",
+      "Train Accuracy": 0.934375,
+      "Test Accuracy": 0.85,
+      "Saved Path": "models/trained/catboost.pkl"
+    },
+    {
+      "Model": "RandomForest",
+      "Train Accuracy": 0.96875,
+      "Test Accuracy": 0.8583333333333333,
+      "Saved Path": "models/trained/randomforest.pkl"
+    },
+    {
+      "Model": "LogisticRegression",
+      "Train Accuracy": 0.9895833333333334,
+      "Test Accuracy": 0.9333333333333333,
+      "Saved Path": "models/trained/logisticregression.pkl"
+    },
+    {
+      "Model": "SVM",
+      "Train Accuracy": 0.996875,
+      "Test Accuracy": 0.9541666666666667,
+      "Saved Path": "models/trained/svm.pkl"
+    },
+    {
+      "Model": "NaiveBayes",
+      "Train Accuracy": 0.9708333333333333,
+      "Test Accuracy": 0.9125,
+      "Saved Path": "models/trained/naivebayes.pkl"
+    },
+    {
+      "Model": "NeuralNetwork",
+      "Train Accuracy": 0.934375,
+      "Test Accuracy": 0.8625,
+      "Saved Path": "models/trained/neuralnetwork.pkl"
+    }
+  ]
+}
