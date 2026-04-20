@@ -72,8 +72,8 @@ A bilingual (Hindi/English), privacy-first health assistant designed for low-con
 ### 1. Clone repo
 
 ```bash
-git clone https://github.com/yourusername/health-companion-chatbot.git
-cd health-companion-chatbot
+git clone https://github.com/mmahek/SwasthyaSaathi.git
+cd SwasthyaSaathi
 ```
 
 ### 2. Create virtual environment
@@ -183,8 +183,8 @@ MIT License
 
 ## 📞 Contact
 
-* GitHub: https://github.com/yourusername
-* Email: [your.email@example.com](mailto:your.email@example.com)
+* GitHub: https://github.com/mmahek
+* Email: mmahekk24@gmail.com
 
 ---
 
