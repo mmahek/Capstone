@@ -1,0 +1,20 @@
+
+\begin{table}[h]
+\centering
+\caption{Performance Comparison of Machine Learning Models}
+\label{tab:model_comparison}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Model} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+\hline
+Svm & 0.9542 & 0.9602 & 0.9542 & 0.9548 \\
+Logisticregression & 0.9333 & 0.9402 & 0.9333 & 0.9325 \\
+Naivebayes & 0.9125 & 0.9238 & 0.9125 & 0.9070 \\
+Lightgbm & 0.8750 & 0.8836 & 0.8750 & 0.8737 \\
+Xgboost & 0.8750 & 0.8776 & 0.8750 & 0.8727 \\
+Neuralnetwork & 0.8625 & 0.8844 & 0.8625 & 0.8537 \\
+Randomforest & 0.8583 & 0.8674 & 0.8583 & 0.8564 \\
+Catboost & 0.8500 & 0.8537 & 0.8500 & 0.8424 \\
+\hline
+\end{tabular}
+\end{table}
